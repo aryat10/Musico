@@ -1,7 +1,8 @@
-
-
+import Herosection from "@/components/ui/Herosection";
 export default function Home() {
   return (
-    <h1 className="text-2xl text-center mt-8 "></h1>
+   <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.2]">
+    <Herosection/> 
+   </main>
   );
 }
